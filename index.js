@@ -7,5 +7,7 @@ const server = http.createServer((request, response) => {
 
 const port = process.env.PORT || 1337;
 server.listen(port);
+// the hello world program
+document.write('Hello, World! NORTH')
 
 console.log("Server running at http://localhost:%d", port);
